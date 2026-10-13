@@ -1,0 +1,20 @@
+:host {
+  display: block;
+}
+
+.hero {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.hero h1 {
+  max-width: 850px;
+}
+
+.hero h1 span {
+  color: #22d3ee;
+}
+
+.description {
+  max-width: 650px;
+}

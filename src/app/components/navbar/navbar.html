@@ -1,0 +1,18 @@
+<header class="navbar">
+  <a class="logo" routerLink="/">
+    NK<span>.</span>
+  </a>
+
+  <nav>
+    <a routerLink="/" [routerLinkActiveOptions]="{ exact: true }"
+       routerLinkActive="active">Home</a>
+
+    <a routerLink="/about" routerLinkActive="active">About</a>
+    <a routerLink="/skills" routerLinkActive="active">Skills</a>
+    <a routerLink="/projects" routerLinkActive="active">Projects</a>
+    <a routerLink="/services" routerLinkActive="active">Services</a>
+    <a routerLink="/experience" routerLinkActive="active">Experience</a>
+  </nav>
+
+  <a class="contact-button" routerLink="/contact">Let's Talk ↗</a>
+</header>
